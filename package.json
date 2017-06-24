@@ -1,0 +1,42 @@
+{
+  "name": "donejs-slim",
+  "version": "0.0.1",
+  "description": "Placeholder for donejs-slim A generator to quickly add StealJS Slim Loader to your DoneJS project.",
+  "homepage": "https://github.com/donejs/donejs-slim",
+  "author": {
+    "name": "Frank Lemanschik",
+    "email": "frank@dspeed.eu",
+    "url": "https://github.com/direktspeed/donejs-slim"
+  },
+  "license": "MIT",
+  "main": "lib/",
+  "scripts": {
+    "test": "npm run jshint && npm run mocha",
+    "jshint": "jshint test/. default/index.js --config",
+    "mocha": "mocha test/ --timeout 120000",
+    "publish": "git push origin --tags && git push origin",
+    "release:patch": "npm version patch && npm publish",
+    "release:minor": "npm version minor && npm publish",
+    "release:major": "npm version major && npm publish"
+  },
+  "keywords": [
+    "steal",
+    "stealjs",
+    "slim",
+    "loader",
+    "donejs",
+    "canjs",
+    "can",
+    "plugin"
+  ],
+  "dependencies": {
+    "lodash": "^4.16.2",
+    "yeoman-generator": "^1.1.1"
+  },
+  "devDependencies": {
+    "jshint": "^2.9.3",
+    "mocha": "^2.5.3",
+    "yeoman-assert": "^2.2.1",
+    "yeoman-test": "^1.5.1"
+  }
+}
