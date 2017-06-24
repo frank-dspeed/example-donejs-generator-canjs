@@ -1,4 +1,5 @@
-donejs-slim - Full-stack realtime
+# donejs-slim
+A Generator that generates steal slim loader config
 
 [![Build Status](https://travis-ci.org/direktspeed/donejs-slim.svg?branch=master)](https://travis-ci.org/direktspeed/donejs-slim)
 [![npm version](https://badge.fury.io/js/donejs-slim.svg)](http://badge.fury.io/js/donejs-slim)
