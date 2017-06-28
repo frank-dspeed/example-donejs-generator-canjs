@@ -1,4 +1,6 @@
 # donejs-slim
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/direktspeed/donejs-canjs.svg)](https://greenkeeper.io/)
 A Generator that generates steal slim loader config
 
 [![Build Status](https://travis-ci.org/direktspeed/donejs-slim.svg?branch=master)](https://travis-ci.org/direktspeed/donejs-slim)
