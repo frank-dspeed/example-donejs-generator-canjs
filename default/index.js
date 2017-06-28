@@ -21,6 +21,15 @@ module.exports = class extends Generator {
     this.props = {};
   }
 
+  var canjsVersion = 'master'
+
+  function checkCanJSVersion() {
+    return true;
+  }
+
+
+
+
   prompting () {
     var done = this.async();
 
@@ -39,6 +48,18 @@ module.exports = class extends Generator {
       }, {
         name: 'Yarn',
         value: 'yarn@>= 0.18.0'
+      }]
+    },{
+      name: 'CanJS Version',
+      type: 'list',
+      message: 'What CanJS Version do you want to Use',
+      default: checkCanJSVersion ? 'master' : canjsVersion,
+      choices: [{
+        name: 'master',
+        value: 'master'
+      }, {
+        name: '3.8.2',
+        value: 'can@3.8.2'
       }]
     }];
 

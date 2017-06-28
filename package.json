@@ -1,14 +1,10 @@
 {
-  "name": "donejs-slim",
-  "version": "0.0.1",
-  "description": "Placeholder for donejs-slim A generator to quickly add StealJS Slim Loader to your DoneJS project.",
-  "homepage": "https://github.com/donejs/donejs-slim",
-  "author": {
-    "name": "Frank Lemanschik",
-    "email": "frank@dspeed.eu",
-    "url": "https://github.com/direktspeed/donejs-slim"
-  },
-  "license": "MIT",
+  "name": "donejs-canjs",
+  "version": "0.0.0-pre.0",
+  "description": "A generator to quickly up and downgrade your CanJS packages in your DoneJS project.",
+  "homepage": "https://github.com/donejs/donejs-canjs",
+  "author": "Frank Lemanschik <frank@dspeed.eu> (https://github.com/direktspeed/donejs-canjs)",
+  "license": "Apache-2.0",
   "main": "lib/",
   "scripts": {
     "test": "npm run jshint && npm run mocha",
@@ -22,12 +18,10 @@
   "keywords": [
     "steal",
     "stealjs",
-    "slim",
-    "loader",
     "donejs",
     "canjs",
     "can",
-    "plugin"
+    "generator"
   ],
   "dependencies": {
     "lodash": "^4.16.2",
@@ -38,5 +32,15 @@
     "mocha": "^2.5.3",
     "yeoman-assert": "^2.2.1",
     "yeoman-test": "^1.5.1"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/direktspeed/donejs-canjs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/direktspeed/donejs-canjs/issues"
   }
 }
