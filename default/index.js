@@ -28,13 +28,22 @@ module.exports = class extends Generator {
   }
 
 
+  function readCanjsReleases() {
+    // request https://github.com/canjs/canjs/tags optional after=3.5.0-pre the last from befor
+    // cheerio parse drop -pre sort 2. 3.
+  }
+
+  function getLatestCanJSVersion {
+    // return latest
+  }
+
 
 
   prompting () {
     var done = this.async();
 
     console.log('');
-    console.log('Add StealJS Slim Loader to your DoneJS app.');
+    console.log('Change the CanJS Version of your DoneJS app.');
     console.log('');
 
     var prompts = [{
