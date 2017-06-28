@@ -1,8 +1,8 @@
-# donejs-slim
-A Generator that generates steal slim loader config
+# donejs-canjs
+A Generator that generates steal canjs loader config
 
-[![Build Status](https://travis-ci.org/direktspeed/donejs-slim.svg?branch=master)](https://travis-ci.org/direktspeed/donejs-slim)
-[![npm version](https://badge.fury.io/js/donejs-slim.svg)](http://badge.fury.io/js/donejs-slim)
+[![Build Status](https://travis-ci.org/direktspeed/donejs-canjs.svg?branch=master)](https://travis-ci.org/direktspeed/donejs-canjs)
+[![npm version](https://badge.fury.io/js/donejs-canjs.svg)](http://badge.fury.io/js/donejs-canjs)
 
 
 A generator to quickly add StealJS Slim Loader to your DoneJS project.
@@ -12,7 +12,7 @@ A generator to quickly add StealJS Slim Loader to your DoneJS project.
 To add this generator to your DoneJS application run
 
 ```
-donejs add slim
+donejs add canjs
 ```
 
 **This generator could potentially overwrite files in an existing application. It is meant to be used immediately after generating a new DoneJS application.**
@@ -27,8 +27,8 @@ The following packages will be added to your project from npm:
 To make changes to this generator clone the repository and install the dependencies
 
 ```
-git clone git@github.com:donejs/donejs-slim.git
-cd donejs-slim
+git clone git@github.com:donejs/donejs-canjs.git
+cd donejs-canjs
 npm install
 ```
 

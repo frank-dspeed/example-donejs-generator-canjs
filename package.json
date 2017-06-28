@@ -1,6 +1,6 @@
 {
   "name": "donejs-canjs",
-  "version": "0.0.0-pre.1",
+  "version": "0.0.0-pre.2",
   "description": "A generator to quickly up and downgrade your CanJS packages in your DoneJS project.",
   "homepage": "https://github.com/donejs/donejs-canjs",
   "author": "Frank Lemanschik <frank@dspeed.eu> (https://github.com/direktspeed/donejs-canjs)",
