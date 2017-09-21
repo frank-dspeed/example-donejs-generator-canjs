@@ -28,10 +28,10 @@
     "yeoman-generator": "^1.1.1"
   },
   "devDependencies": {
-    "jshint": "^2.9.3",
-    "mocha": "^2.5.3",
-    "yeoman-assert": "^2.2.1",
-    "yeoman-test": "^1.5.1"
+    "jshint": "2.9.5",
+    "mocha": "2.5.3",
+    "yeoman-assert": "2.2.3",
+    "yeoman-test": "1.7.0"
   },
   "directories": {
     "lib": "lib"
